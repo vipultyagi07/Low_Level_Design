@@ -1,4 +1,31 @@
-# git commands 
+# Git's Important command  to add a local project to git hub
+
+
+   ## FIRST DOWNLOAD git on your local machine 
+      https://git-scm.com/downloads
+
+ ## 1 Initialize Git in your local project directory:
+   ### Open your terminal(in any IDE) or command prompt. -> Navigate to the root directory of your project.
+       "git init"
+    
+  ##  2. Add your project files to the Git repository:
+       git add .
+       
+  ##  3. Commit your changes:
+        git commit -m "Your commit message here"
+
+  ##  4. Add your username and email on you local git
+       git config --global user.name "Your Name"
+       git config --global user.email "your.email@example.com"
+     
+  ##  5. Connect your local repository to the GitHub repository:
+   #### In the GitHub repository you created, you will find the URL for your remote repository.Copy it (should look something like https://github.com/your- username/your-repo.git). Now, in your terminal, link your local repository to the remote GitHub repository using the following command:
+        
+        "git remote add origin https://github.com/your-username/your-repo.git"
+
+
+
+# Git commands frequently used commands
 
 ## 1st - checkout command 
 git checkout 'branch name'
